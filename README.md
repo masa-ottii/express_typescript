@@ -2,9 +2,9 @@
 
 ## usage
 
-`
-cd express_typescript
-npm install
-npx tsc
-node app/app.js
-`
+```
+> cd express_typescript
+> npm install
+> npx tsc
+> node app/app.js
+```
