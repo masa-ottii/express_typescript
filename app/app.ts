@@ -9,7 +9,7 @@ const port:number = Number(process.env.PORT)||3000;
 app.set('view engine','pug');
 
 app.get('/',(req:Request, res:Response) => {
-    res.render('index', { title: 'Hey', message: 'Hello there!'});
+    res.render('index');
 });
 
 app.use('/welcome',WelcomeController);
