@@ -1,0 +1,12 @@
+html
+  head
+    title= title
+  body
+    form(action="/register", method="post")
+        label(for="namae") 名前：
+        input(type="text", name="namae")
+        br
+        label(for="nenrei") 年齢：
+        input(type="number", name="nenrei")
+        br
+        input(type="submit", value="click!")
